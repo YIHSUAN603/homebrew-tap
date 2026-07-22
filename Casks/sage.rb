@@ -1,3 +1,4 @@
+# 驗證自動更新用的暫時註解，workflow 跑過後會被移除
 cask "sage" do
   arch arm: "aarch64", intel: "x64"
 
