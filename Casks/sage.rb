@@ -12,6 +12,12 @@ cask "sage" do
 
   app "sage.app"
 
+  # 未經 Apple 簽章，安裝後自動移除隔離標記（Homebrew 6 已移除 --no-quarantine）
+  postflight do
+    system_command "/usr/bin/xattr",
+                   args: ["-cr", "#{appdir}/sage.app"]
+  end
+
   zap trash: [
     "~/Library/Application Support/com.sage.app",
   ]
