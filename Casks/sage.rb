@@ -1,9 +1,9 @@
 cask "sage" do
   arch arm: "aarch64", intel: "x64"
 
-  version "0.4.1"
-  sha256 arm:   "98acf9aa3f13bffb2ac4bf96811fc2de7b9c951326db7f39fbbde4db826e97a9",
-         intel: "a14b819b136a881abd22ae94671fa4417e76d4cee01efb984864c65d95c8ecef"
+  version "0.4.2"
+  sha256 arm:   "bac33a3175da5990c27e40433423238237fe4f3c9f3608b7e072da5e7556cf36",
+         intel: "c285f3b705af9658e9b814a8f88c7b7e639c37d2ff5509a813a96c0ebce40daa"
 
   url "https://github.com/YIHSUAN603/Sage/releases/download/v#{version}/sage_#{version}_#{arch}.dmg"
   name "Sage"
