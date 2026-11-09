@@ -3,9 +3,9 @@
 cask "helm-terminal" do
   arch arm: "aarch64", intel: "x64"
 
-  version "0.23.1"
-  sha256 arm:   "3e3e1501c702cc0d9f305c8ff0e3ddcee36d2aace051224a34656a3b926e6aad",
-         intel: "527d8a2f1c59fd28f5874934b92558e10d024168b648a54312fe820634755fad"
+  version "0.24.0"
+  sha256 arm:   "8a1070f54b593337aef39ac469f5575774c289424f6ffc18b588775ac9371f8b",
+         intel: "397c84bb417fc5cfe498cf75084f90c52966d7c9f3a981a3069dae1ea31fb80e"
 
   url "https://github.com/YIHSUAN603/Helm/releases/download/v#{version}/Helm_#{version}_#{arch}.dmg"
   name "Helm"
